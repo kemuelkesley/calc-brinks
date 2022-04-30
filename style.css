@@ -1,0 +1,106 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;    
+    background-image: url(./img/tela-calculadora.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(2px);   
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    height: 1.25rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.container{
+    /* margin-top: 2rem;    
+    display: flex;   
+    justify-content: center; */
+    /* background-color: red; */
+    margin-top: 2rem;
+    display: flex;    
+    height: 85vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form{
+    border: 2px solid #ffffff30;;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    /* background-color:#F0F8FF; */
+    background: #ffffff30;;
+    justify-content: center;   
+    
+    
+    
+}
+
+
+.button__calc{
+    margin-right: -2rem;
+    border: 2px solid #D8BFD8;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.container-button{    
+    padding: 20px;
+}
+
+
+.large-button{
+    margin-right: -2rem;
+    border: 2px solid #D8BFD8;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.button__calc:hover{    
+    background-color:#D8BFD8;
+    color: black;
+    transition: all 0.3s ease-in ;
+}
+
+.large-button:hover{
+    background-color:#D8BFD8;
+    color: black;
+    transition: all 0.3s ease-in ;
+}
+
+
+.show-or-hide{       
+    display: none;
+    /* visibility: hidden; */
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
