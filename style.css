@@ -18,7 +18,7 @@ body{
 
 input {
     height: 1.25rem;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 5px;
 }
 
@@ -44,9 +44,14 @@ input {
     /* background-color:#F0F8FF; */
     background: #ffffff30;;
     justify-content: center;   
-    
-    
-    
+}
+
+
+.choseYourOptions{
+    height: 1.55rem;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 175px;
 }
 
 
@@ -74,7 +79,6 @@ input {
     padding-bottom: 4px;
     padding-right: 20px;
     padding-left: 20px;
-    
 }
 
 .button__calc:hover{    

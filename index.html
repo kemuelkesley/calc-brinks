@@ -8,26 +8,36 @@
     <title>Estudo</title>
 </head>
 <body>
-
     <div class="container">
         <form action="#">
             <div class="form">
                 <div>
                     <div class="titulo">
-                        <strong>Calcule</strong>                        
+                        <p>Calcule</p>                      
                     </div>
-                    <p><strong>Somar número A</strong></p>
-                    <label for="numero-a">Número A:</label>
-                    <input type="number" id="numero-a" maxlength="4" placeholder="Digite o primeiro número">
+                    <label for="">Operação:</label>
+                    <!-- Selecionar operação que deseja calcular -->
+                    <select class="choseYourOptions" name="escolherOpcao" id="escolherOpcao" onchange="opc()">                        
+                        <option value="" selected>Selecione</option>
+                        <option value="s">Somar</option>
+                        <option value="sub">Subtrair</option>
+                        <option value="m">Multiplicar</option>
+                        <option value="d">Dividir</option>
+                    </select>
                 </div>
+                <br>
                 <div>
-                    <p class="itens"><strong>Somar número B</strong></p>
+                    <label for="numero-a" class="sytle">Número A:</label>
+                    <input type="number" id="numero-a" maxlength="4" placeholder="Digite o segundo número">
+                </div>
+                <br>               
+                <div>
                     <label for="numero-b" class="sytle">Número B:</label>
                     <input type="number" id="numero-b" maxlength="4" placeholder="Digite o segundo número">
                 </div>
                 <br>               
                 <div>
-                    <button type="button" onclick="somar()" class="button__calc">Calcular</button>
+                    <button type="button" onclick="opc()" class="button__calc">Calcular</button>
                 </div>
                 <br><br>
                 
@@ -42,6 +52,8 @@
         </form>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+       
+    </script>
 </body>
 </html>
